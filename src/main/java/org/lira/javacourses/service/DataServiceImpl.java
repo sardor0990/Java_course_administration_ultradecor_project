@@ -29,6 +29,8 @@ public class DataServiceImpl implements DataService{
         course2.setCostPerParticipant(1500.00);
         course2.setCourseType(CourseType.EXPERIENCED);
 
+        System.out.println("hello");
+
         JavaCourse course3 = new JavaCourse();
         course3.setId(UUID.randomUUID());
         course3.setDescription("Jakarta EE for Experts");
